@@ -1,0 +1,86 @@
+/* ================================
+   Font Imports
+   ================================ */
+   @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+   /* ================================
+      General Body Styling
+      ================================ */
+   body {
+       background-color: rgb(18, 18, 18); /* Dark background color */
+       font-family: "Ubuntu", sans-serif; /* Use Ubuntu font */
+       color: white; /* Default text color */
+       display: flex; /* Flexbox layout */
+       justify-content: center; /* Center content horizontally */
+       align-items: center; /* Center content vertically */
+       height: 100vh; /* Full viewport height */
+       margin: 0; /* Remove default margin */
+   }
+   
+   /* ================================
+      Main Container Styling
+      ================================ */
+   main {
+       padding: 10px; /* Padding around the main content */
+       width: 100%; /* Full width */
+       text-align: center; /* Center text */
+   }
+   
+   /* ================================
+      Icon Styling
+      ================================ */
+   iconify-icon {
+       vertical-align: middle; /* Align icons vertically */
+       display: inline-block; /* Display icons inline with other elements */
+       width: 1.5em; /* Icon width */
+       height: 1.5em; /* Icon height */
+   }
+   
+   /* ================================
+      Header Styling
+      ================================ */
+   #name {
+       font-size: 40px; /* Font size for name */
+   }
+   
+   /* ================================
+      Description Styling
+      ================================ */
+   #description {
+       font-size: 25px; /* Font size for description */
+       font-weight: 400; /* Font weight for description */
+   }
+   
+   /* ================================
+      Socials Section Styling
+      ================================ */
+   #socials {
+       line-height: 2em; /* Spacing between social media icons */
+   }
+   
+   /* ================================
+      Social Links Styling
+      ================================ */
+   #socials a {
+       color: white; /* Link color */
+       text-decoration: none; /* Remove underline from links */
+       font-weight: bold; /* Make text bold */
+       margin: 10px; /* Space around each link */
+       transition: color 0.3s ease; /* Smooth color transition on hover */
+   }
+   
+   /* ================================
+      Social Links Hover Effect
+      ================================ */
+   #socials a:hover {
+       color: #aaa; /* Change color on hover */
+   }
+   
+   /* ================================
+      Avatar Styling
+      ================================ */
+   .avatar {
+       border-radius: 50%; /* Make the avatar circular */
+       width: 250px; /* Avatar width */
+   }
+   
