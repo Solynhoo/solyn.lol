@@ -10,21 +10,43 @@
        background-color: rgb(18, 18, 18); /* Dark background color */
        font-family: "Ubuntu", sans-serif; /* Use Ubuntu font */
        color: white; /* Default text color */
+       height: 100vh; /* Full viewport height */
+       margin: 10px; /* Remove default margin */
+   }
+   
+    /* ================================
+      Header Container Styling
+      ================================ */
+
+   header {
+      margin: 10px;
+   }
+   .heading {
+      margin: 10px;
+      text-align: center;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: rgb(28, 28, 28);
+   }
+
+   /* ================================
+      Main Container Styling
+      ================================ */
+   main.index {
+       padding: 10px; /* Padding around the main content */
+       width: 100%; /* Uses the full width*/
        display: flex; /* Flexbox layout */
        justify-content: center; /* Center content horizontally */
        align-items: center; /* Center content vertically */
        height: 100vh; /* Full viewport height */
-       margin: 0; /* Remove default margin */
-   }
-   
-   /* ================================
-      Main Container Styling
-      ================================ */
-   main {
-       padding: 10px; /* Padding around the main content */
-       width: 100%; /* Full width */
+       margin: 0; /* Remove default margin *//* Full width */
        text-align: center; /* Center text */
    }
+   main.about {
+      display: block;
+      margin: 20px;
+
+  }
    
    /* ================================
       Icon Styling
@@ -83,4 +105,24 @@
        border-radius: 50%; /* Make the avatar circular */
        width: 250px; /* Avatar width */
    }
+
+   #about-avatar {
+      float: left;
+      margin: 20px;
+   }
+   /* ================================
+      Navigation styling
+      ================================ */
+      nav {
+         text-align: center;
+         padding: 5px;
+      }
+      nav a {
+         color: white;
+         font-size: larger;
+         text-decoration: none;
+         font-weight: bold;
+         margin: 10px;
+      }
+
    

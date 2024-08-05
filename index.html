@@ -45,7 +45,7 @@
     <!-- ================================
          CSS Stylesheet
          ================================ -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
 
     <!-- ================================
          Favicons
@@ -71,9 +71,34 @@
   </head>
   <body>
     <!-- ================================
+         Header Content
+         ================================ -->
+    <header>
+      <nav>
+        <a target="_self" href="/"
+          ><iconify-icon
+            aria-label="Home Icon"
+            icon="lucide:home"
+            width="25"
+            height="25"
+          ></iconify-icon>
+          Home</a
+        >
+        <a rel="next" target="_self" href="about/">
+          <iconify-icon
+            aria-label="Clipboard Icon"
+            icon="lucide:clipboard"
+            width="25"
+            height="25"
+          ></iconify-icon>
+          About</a
+        >
+      </nav>
+    </header>
+    <!-- ================================
          Main Content
          ================================ -->
-    <main>
+    <main class="index">
       <!-- ================================
            Overview Section
            ================================ -->
@@ -86,7 +111,7 @@
 
         <!-- Description Paragraph -->
         <p id="description">
-          I'm a silly <strong>full-stack developer</strong> (✿◠‿◠)
+          I'm just a silly <strong>full-stack developer</strong> (✿◠‿◠)
         </p>
 
         <!-- ================================
